@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -std=c++11 -Wno-unused-parameter  -m64 -nodefaultlibs -Wl,-z,text -shared -Wl,-soname,libclang_rt.ubsan_minimal-x86_64.so -o ../linux/libclang_rt.ubsan_minimal-x86_64.so CMakeFiles/RTUbsan_minimal.x86_64.dir/ubsan_minimal_handlers.cc.o  -lgcc_s -lc 

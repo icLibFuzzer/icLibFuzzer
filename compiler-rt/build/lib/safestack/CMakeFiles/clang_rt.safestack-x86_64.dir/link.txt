@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../linux/libclang_rt.safestack-x86_64.a  CMakeFiles/clang_rt.safestack-x86_64.dir/safestack.cc.o ../interception/CMakeFiles/RTInterception.x86_64.dir/interception_linux.cc.o ../interception/CMakeFiles/RTInterception.x86_64.dir/interception_mac.cc.o ../interception/CMakeFiles/RTInterception.x86_64.dir/interception_win.cc.o ../interception/CMakeFiles/RTInterception.x86_64.dir/interception_type_test.cc.o
+/usr/bin/ranlib ../linux/libclang_rt.safestack-x86_64.a

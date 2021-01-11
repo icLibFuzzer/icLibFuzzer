@@ -1,0 +1,11 @@
+# Target labels
+ libcxx_fuzzer_x86_64
+# Source files and their labels
+/home/llvm-project/compiler-rt/build/lib/fuzzer/CMakeFiles/libcxx_fuzzer_x86_64-clean
+/home/llvm-project/compiler-rt/build/lib/fuzzer/CMakeFiles/libcxx_fuzzer_x86_64-clean.rule
+/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-clean.rule
+/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-configure.rule
+/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-update.rule
+/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-patch.rule
+/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-download.rule
+/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-mkdir.rule

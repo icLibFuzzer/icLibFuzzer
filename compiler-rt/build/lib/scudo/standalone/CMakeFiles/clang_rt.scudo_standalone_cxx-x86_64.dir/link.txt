@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../linux/libclang_rt.scudo_standalone_cxx-x86_64.a  CMakeFiles/clang_rt.scudo_standalone_cxx-x86_64.dir/wrappers_cpp.cc.o
+/usr/bin/ranlib ../../linux/libclang_rt.scudo_standalone_cxx-x86_64.a

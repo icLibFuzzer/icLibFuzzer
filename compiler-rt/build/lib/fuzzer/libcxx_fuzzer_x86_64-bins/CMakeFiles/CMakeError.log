@@ -1,0 +1,221 @@
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WMISMATCHED_TAGS_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90cb9/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_90cb9.dir/build.make CMakeFiles/cmTC_90cb9.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90cb9.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WMISMATCHED_TAGS_FLAG  -nodefaultlibs   -Wmismatched-tags -o CMakeFiles/cmTC_90cb9.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wmismatched-tags'
+make[4]: *** [CMakeFiles/cmTC_90cb9.dir/build.make:66: CMakeFiles/cmTC_90cb9.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_90cb9/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WNEWLINE_EOF_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4da0/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a4da0.dir/build.make CMakeFiles/cmTC_a4da0.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4da0.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WNEWLINE_EOF_FLAG  -nodefaultlibs   -Wnewline-eof -o CMakeFiles/cmTC_a4da0.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnewline-eof'
+make[4]: *** [CMakeFiles/cmTC_a4da0.dir/build.make:66: CMakeFiles/cmTC_a4da0.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_a4da0/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WSHORTEN_64_TO_32_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7401/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a7401.dir/build.make CMakeFiles/cmTC_a7401.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7401.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WSHORTEN_64_TO_32_FLAG  -nodefaultlibs   -Wshorten-64-to-32 -o CMakeFiles/cmTC_a7401.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[4]: *** [CMakeFiles/cmTC_a7401.dir/build.make:66: CMakeFiles/cmTC_a7401.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_a7401/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WX_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80445/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_80445.dir/build.make CMakeFiles/cmTC_80445.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80445.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WX_FLAG  -nodefaultlibs   -WX- -o CMakeFiles/cmTC_80445.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-WX-'
+make[4]: *** [CMakeFiles/cmTC_80445.dir/build.make:66: CMakeFiles/cmTC_80445.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_80445/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_EHS_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3067/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d3067.dir/build.make CMakeFiles/cmTC_d3067.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3067.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_EHS_FLAG  -nodefaultlibs   -EHs- -o CMakeFiles/cmTC_d3067.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-EHs-'
+make[4]: *** [CMakeFiles/cmTC_d3067.dir/build.make:66: CMakeFiles/cmTC_d3067.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_d3067/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_EHA_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c8e7/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2c8e7.dir/build.make CMakeFiles/cmTC_2c8e7.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c8e7.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_EHA_FLAG  -nodefaultlibs   -EHa- -o CMakeFiles/cmTC_2c8e7.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-EHa-'
+make[4]: *** [CMakeFiles/cmTC_2c8e7.dir/build.make:66: CMakeFiles/cmTC_2c8e7.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_2c8e7/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_FVISIBILITY_GLOBAL_NEW_DELETE_HIDDEN_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd170/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd170.dir/build.make CMakeFiles/cmTC_fd170.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd170.dir/src.cxx.o
+/usr/bin/c++    -m64  -DLIBCXXABI_SUPPORTS_FVISIBILITY_GLOBAL_NEW_DELETE_HIDDEN_FLAG  -nodefaultlibs   -fvisibility-global-new-delete-hidden -o CMakeFiles/cmTC_fd170.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fvisibility-global-new-delete-hidden'
+make[4]: *** [CMakeFiles/cmTC_fd170.dir/build.make:66: CMakeFiles/cmTC_fd170.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_fd170/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_STD_COLON_CXX11_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0681b/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0681b.dir/build.make CMakeFiles/cmTC_0681b.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0681b.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_STD_COLON_CXX11_FLAG  -nodefaultlibs   /std:c++11 -o CMakeFiles/cmTC_0681b.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /std:c++11: No such file or directory
+make[4]: *** [CMakeFiles/cmTC_0681b.dir/build.make:66: CMakeFiles/cmTC_0681b.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_0681b/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_EHS_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79cd0/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_79cd0.dir/build.make CMakeFiles/cmTC_79cd0.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79cd0.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_EHS_FLAG  -nodefaultlibs   -EHs- -o CMakeFiles/cmTC_79cd0.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-EHs-'
+make[4]: *** [CMakeFiles/cmTC_79cd0.dir/build.make:66: CMakeFiles/cmTC_79cd0.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_79cd0/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_EHA_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2fd9/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a2fd9.dir/build.make CMakeFiles/cmTC_a2fd9.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2fd9.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_EHA_FLAG  -nodefaultlibs   -EHa- -o CMakeFiles/cmTC_a2fd9.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-EHa-'
+make[4]: *** [CMakeFiles/cmTC_a2fd9.dir/build.make:66: CMakeFiles/cmTC_a2fd9.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_a2fd9/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_ZL_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eab1d/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eab1d.dir/build.make CMakeFiles/cmTC_eab1d.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eab1d.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_ZL_FLAG  -nodefaultlibs   /Zl -o CMakeFiles/cmTC_eab1d.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /Zl: No such file or directory
+make[4]: *** [CMakeFiles/cmTC_eab1d.dir/build.make:66: CMakeFiles/cmTC_eab1d.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_eab1d/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_NODEFAULTLIB_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f8fc/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9f8fc.dir/build.make CMakeFiles/cmTC_9f8fc.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f8fc.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_NODEFAULTLIB_FLAG  -nodefaultlibs   /nodefaultlib -o CMakeFiles/cmTC_9f8fc.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /nodefaultlib: No such file or directory
+make[4]: *** [CMakeFiles/cmTC_9f8fc.dir/build.make:66: CMakeFiles/cmTC_9f8fc.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_9f8fc/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_FVISIBILITY_GLOBAL_NEW_DELETE_HIDDEN_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3ed1/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3ed1.dir/build.make CMakeFiles/cmTC_c3ed1.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3ed1.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_FVISIBILITY_GLOBAL_NEW_DELETE_HIDDEN_FLAG  -nodefaultlibs   -fvisibility-global-new-delete-hidden -o CMakeFiles/cmTC_c3ed1.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fvisibility-global-new-delete-hidden'
+make[4]: *** [CMakeFiles/cmTC_c3ed1.dir/build.make:66: CMakeFiles/cmTC_c3ed1.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_c3ed1/fast] Error 2
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

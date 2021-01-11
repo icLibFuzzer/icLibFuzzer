@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/CMakeFiles/libcxx_fuzzer_x86_64-build"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/CMakeFiles/libcxx_fuzzer_x86_64-build.rule"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-build.rule"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-configure.rule"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-update.rule"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-patch.rule"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-download.rule"
+		},
+		{
+			"file" : "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-stamps/libcxx_fuzzer_x86_64-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libcxx_fuzzer_x86_64"
+		],
+		"name" : "libcxx_fuzzer_x86_64-build"
+	}
+}
