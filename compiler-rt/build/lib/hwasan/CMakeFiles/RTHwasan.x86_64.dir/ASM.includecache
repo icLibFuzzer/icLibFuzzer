@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_common_interceptors_vfork_aarch64.inc.S
+sanitizer_common/sanitizer_asm.h
+../lib/sanitizer_common/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_common_interceptors_vfork_x86_64.inc.S
+sanitizer_common/sanitizer_asm.h
+../lib/sanitizer_common/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_platform.h
+TargetConditionals.h
+-
+
+/home/llvm-project/compiler-rt/lib/hwasan/hwasan_interceptors_vfork.S
+sanitizer_common/sanitizer_asm.h
+/home/llvm-project/compiler-rt/lib/hwasan/sanitizer_common/sanitizer_asm.h
+sanitizer_common/sanitizer_common_interceptors_vfork_aarch64.inc.S
+/home/llvm-project/compiler-rt/lib/hwasan/sanitizer_common/sanitizer_common_interceptors_vfork_aarch64.inc.S
+sanitizer_common/sanitizer_common_interceptors_vfork_x86_64.inc.S
+/home/llvm-project/compiler-rt/lib/hwasan/sanitizer_common/sanitizer_common_interceptors_vfork_x86_64.inc.S
+
+/home/llvm-project/compiler-rt/lib/hwasan/hwasan_setjmp.S
+sanitizer_common/sanitizer_asm.h
+/home/llvm-project/compiler-rt/lib/hwasan/sanitizer_common/sanitizer_asm.h
+sanitizer_common/sanitizer_platform.h
+/home/llvm-project/compiler-rt/lib/hwasan/sanitizer_common/sanitizer_platform.h
+
+/home/llvm-project/compiler-rt/lib/hwasan/hwasan_tag_mismatch_aarch64.S
+sanitizer_common/sanitizer_asm.h
+/home/llvm-project/compiler-rt/lib/hwasan/sanitizer_common/sanitizer_asm.h
+

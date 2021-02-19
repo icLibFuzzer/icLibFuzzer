@@ -1,0 +1,519 @@
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_SANITIZE_SAFE_STACK_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2fc35/fast && /usr/bin/make -f CMakeFiles/cmTC_2fc35.dir/build.make CMakeFiles/cmTC_2fc35.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fc35.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_FNO_SANITIZE_SAFE_STACK_FLAG  -nodefaultlibs   -fno-sanitize=safe-stack -o CMakeFiles/cmTC_2fc35.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized argument to '-fno-sanitize=' option: 'safe-stack'
+make[1]: *** [CMakeFiles/cmTC_2fc35.dir/build.make:66: CMakeFiles/cmTC_2fc35.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2fc35/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_PROFILE_INSTR_GENERATE_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31302/fast && /usr/bin/make -f CMakeFiles/cmTC_31302.dir/build.make CMakeFiles/cmTC_31302.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31302.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_FNO_PROFILE_INSTR_GENERATE_FLAG  -nodefaultlibs   -fno-profile-instr-generate -o CMakeFiles/cmTC_31302.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fno-profile-instr-generate'; did you mean '-fno-profile-generate'?
+make[1]: *** [CMakeFiles/cmTC_31302.dir/build.make:66: CMakeFiles/cmTC_31302.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_31302/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FNO_PROFILE_INSTR_USE_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7895a/fast && /usr/bin/make -f CMakeFiles/cmTC_7895a.dir/build.make CMakeFiles/cmTC_7895a.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7895a.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_FNO_PROFILE_INSTR_USE_FLAG  -nodefaultlibs   -fno-profile-instr-use -o CMakeFiles/cmTC_7895a.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fno-profile-instr-use'; did you mean '-fno-profile-use'?
+make[1]: *** [CMakeFiles/cmTC_7895a.dir/build.make:66: CMakeFiles/cmTC_7895a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7895a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_MCRC_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e48f1/fast && /usr/bin/make -f CMakeFiles/cmTC_e48f1.dir/build.make CMakeFiles/cmTC_e48f1.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e48f1.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_MCRC_FLAG  -nodefaultlibs   -Werror -mcrc -o CMakeFiles/cmTC_e48f1.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-mcrc'
+make[1]: *** [CMakeFiles/cmTC_e48f1.dir/build.make:66: CMakeFiles/cmTC_e48f1.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e48f1/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_GR_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9205/fast && /usr/bin/make -f CMakeFiles/cmTC_e9205.dir/build.make CMakeFiles/cmTC_e9205.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9205.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_GR_FLAG  -nodefaultlibs   /GR -o CMakeFiles/cmTC_e9205.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /GR: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_e9205.dir/build.make:66: CMakeFiles/cmTC_e9205.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e9205/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_GS_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3f50/fast && /usr/bin/make -f CMakeFiles/cmTC_f3f50.dir/build.make CMakeFiles/cmTC_f3f50.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3f50.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_GS_FLAG  -nodefaultlibs   /GS -o CMakeFiles/cmTC_f3f50.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /GS: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_f3f50.dir/build.make:66: CMakeFiles/cmTC_f3f50.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f3f50/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_MT_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de320/fast && /usr/bin/make -f CMakeFiles/cmTC_de320.dir/build.make CMakeFiles/cmTC_de320.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de320.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_MT_FLAG  -nodefaultlibs   /MT -o CMakeFiles/cmTC_de320.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /MT: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_de320.dir/build.make:66: CMakeFiles/cmTC_de320.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_de320/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_Oy_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ef74/fast && /usr/bin/make -f CMakeFiles/cmTC_2ef74.dir/build.make CMakeFiles/cmTC_2ef74.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ef74.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_Oy_FLAG  -nodefaultlibs   /Oy -o CMakeFiles/cmTC_2ef74.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /Oy: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_2ef74.dir/build.make:66: CMakeFiles/cmTC_2ef74.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2ef74/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_GLINE_TABLES_ONLY_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5415/fast && /usr/bin/make -f CMakeFiles/cmTC_b5415.dir/build.make CMakeFiles/cmTC_b5415.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5415.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_GLINE_TABLES_ONLY_FLAG  -nodefaultlibs   -gline-tables-only -o CMakeFiles/cmTC_b5415.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized debug output level 'line-tables-only'
+make[1]: *** [CMakeFiles/cmTC_b5415.dir/build.make:66: CMakeFiles/cmTC_b5415.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b5415/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_Zi_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05848/fast && /usr/bin/make -f CMakeFiles/cmTC_05848.dir/build.make CMakeFiles/cmTC_05848.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05848.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_Zi_FLAG  -nodefaultlibs   /Zi -o CMakeFiles/cmTC_05848.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /Zi: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_05848.dir/build.make:66: CMakeFiles/cmTC_05848.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_05848/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WGLOBAL_CONSTRUCTORS_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c77b1/fast && /usr/bin/make -f CMakeFiles/cmTC_c77b1.dir/build.make CMakeFiles/cmTC_c77b1.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c77b1.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WGLOBAL_CONSTRUCTORS_FLAG  -nodefaultlibs   -Werror -Wglobal-constructors -o CMakeFiles/cmTC_c77b1.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wglobal-constructors'; did you mean '-felide-constructors'?
+make[1]: *** [CMakeFiles/cmTC_c77b1.dir/build.make:66: CMakeFiles/cmTC_c77b1.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c77b1/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WC99_EXTENSIONS_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ac67/fast && /usr/bin/make -f CMakeFiles/cmTC_4ac67.dir/build.make CMakeFiles/cmTC_4ac67.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ac67.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WC99_EXTENSIONS_FLAG  -nodefaultlibs   -Werror -Wc99-extensions -o CMakeFiles/cmTC_4ac67.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc99-extensions'; did you mean '-fms-extensions'?
+make[1]: *** [CMakeFiles/cmTC_4ac67.dir/build.make:66: CMakeFiles/cmTC_4ac67.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4ac67/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WGNU_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6780/fast && /usr/bin/make -f CMakeFiles/cmTC_e6780.dir/build.make CMakeFiles/cmTC_e6780.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6780.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WGNU_FLAG  -nodefaultlibs   -Werror -Wgnu -o CMakeFiles/cmTC_e6780.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wgnu'
+make[1]: *** [CMakeFiles/cmTC_e6780.dir/build.make:66: CMakeFiles/cmTC_e6780.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e6780/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WCOVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a973b/fast && /usr/bin/make -f CMakeFiles/cmTC_a973b.dir/build.make CMakeFiles/cmTC_a973b.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a973b.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WCOVERED_SWITCH_DEFAULT_FLAG  -nodefaultlibs   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_a973b.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+make[1]: *** [CMakeFiles/cmTC_a973b.dir/build.make:66: CMakeFiles/cmTC_a973b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a973b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_W4_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3dd3/fast && /usr/bin/make -f CMakeFiles/cmTC_d3dd3.dir/build.make CMakeFiles/cmTC_d3dd3.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3dd3.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_W4_FLAG  -nodefaultlibs   /W4 -o CMakeFiles/cmTC_d3dd3.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /W4: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_d3dd3.dir/build.make:66: CMakeFiles/cmTC_d3dd3.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d3dd3/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WX_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83684/fast && /usr/bin/make -f CMakeFiles/cmTC_83684.dir/build.make CMakeFiles/cmTC_83684.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83684.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WX_FLAG  -nodefaultlibs   /WX -o CMakeFiles/cmTC_83684.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /WX: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_83684.dir/build.make:66: CMakeFiles/cmTC_83684.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_83684/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4146_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8ead/fast && /usr/bin/make -f CMakeFiles/cmTC_a8ead.dir/build.make CMakeFiles/cmTC_a8ead.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8ead.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WD4146_FLAG  -nodefaultlibs   /wd4146 -o CMakeFiles/cmTC_a8ead.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /wd4146: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_a8ead.dir/build.make:66: CMakeFiles/cmTC_a8ead.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a8ead/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4291_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e21f/fast && /usr/bin/make -f CMakeFiles/cmTC_8e21f.dir/build.make CMakeFiles/cmTC_8e21f.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e21f.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WD4291_FLAG  -nodefaultlibs   /wd4291 -o CMakeFiles/cmTC_8e21f.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /wd4291: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_8e21f.dir/build.make:66: CMakeFiles/cmTC_8e21f.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8e21f/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4221_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6266/fast && /usr/bin/make -f CMakeFiles/cmTC_e6266.dir/build.make CMakeFiles/cmTC_e6266.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6266.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WD4221_FLAG  -nodefaultlibs   /wd4221 -o CMakeFiles/cmTC_e6266.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /wd4221: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_e6266.dir/build.make:66: CMakeFiles/cmTC_e6266.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e6266/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4391_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_198d4/fast && /usr/bin/make -f CMakeFiles/cmTC_198d4.dir/build.make CMakeFiles/cmTC_198d4.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_198d4.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WD4391_FLAG  -nodefaultlibs   /wd4391 -o CMakeFiles/cmTC_198d4.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /wd4391: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_198d4.dir/build.make:66: CMakeFiles/cmTC_198d4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_198d4/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4722_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1cc7a/fast && /usr/bin/make -f CMakeFiles/cmTC_1cc7a.dir/build.make CMakeFiles/cmTC_1cc7a.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1cc7a.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WD4722_FLAG  -nodefaultlibs   /wd4722 -o CMakeFiles/cmTC_1cc7a.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /wd4722: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_1cc7a.dir/build.make:66: CMakeFiles/cmTC_1cc7a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1cc7a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_WD4800_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d8cd/fast && /usr/bin/make -f CMakeFiles/cmTC_3d8cd.dir/build.make CMakeFiles/cmTC_3d8cd.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d8cd.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_WD4800_FLAG  -nodefaultlibs   /wd4800 -o CMakeFiles/cmTC_3d8cd.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /wd4800: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_3d8cd.dir/build.make:66: CMakeFiles/cmTC_3d8cd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3d8cd/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function backtrace exists in the execinfo failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f189/fast && /usr/bin/make -f CMakeFiles/cmTC_5f189.dir/build.make CMakeFiles/cmTC_5f189.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f189.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace  -nodefaultlibs   -o CMakeFiles/cmTC_5f189.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f189.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=backtrace  -nodefaultlibs    CMakeFiles/cmTC_5f189.dir/CheckFunctionExists.c.o  -o cmTC_5f189  -lexecinfo -lc -lgcc_s 
+/usr/bin/ld: cannot find -lexecinfo
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5f189.dir/build.make:87: cmTC_5f189] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5f189/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the terminfo failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5dd34/fast && /usr/bin/make -f CMakeFiles/cmTC_5dd34.dir/build.make CMakeFiles/cmTC_5dd34.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dd34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs   -o CMakeFiles/cmTC_5dd34.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5dd34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dd34.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs    CMakeFiles/cmTC_5dd34.dir/CheckFunctionExists.c.o  -o cmTC_5dd34  -lterminfo -lc -lgcc_s 
+/usr/bin/ld: cannot find -lterminfo
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5dd34.dir/build.make:87: cmTC_5dd34] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5dd34/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the tinfo failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3000/fast && /usr/bin/make -f CMakeFiles/cmTC_b3000.dir/build.make CMakeFiles/cmTC_b3000.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3000.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs   -o CMakeFiles/cmTC_b3000.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b3000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3000.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs    CMakeFiles/cmTC_b3000.dir/CheckFunctionExists.c.o  -o cmTC_b3000  -ltinfo -lc -lgcc_s 
+/usr/bin/ld: cannot find -ltinfo
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b3000.dir/build.make:87: cmTC_b3000] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b3000/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the curses failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8525c/fast && /usr/bin/make -f CMakeFiles/cmTC_8525c.dir/build.make CMakeFiles/cmTC_8525c.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8525c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs   -o CMakeFiles/cmTC_8525c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8525c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8525c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs    CMakeFiles/cmTC_8525c.dir/CheckFunctionExists.c.o  -o cmTC_8525c  -lcurses -lc -lgcc_s 
+/usr/bin/ld: cannot find -lcurses
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8525c.dir/build.make:87: cmTC_8525c] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8525c/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the ncurses failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4217a/fast && /usr/bin/make -f CMakeFiles/cmTC_4217a.dir/build.make CMakeFiles/cmTC_4217a.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4217a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs   -o CMakeFiles/cmTC_4217a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4217a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4217a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs    CMakeFiles/cmTC_4217a.dir/CheckFunctionExists.c.o  -o cmTC_4217a  -lncurses -lc -lgcc_s 
+/usr/bin/ld: cannot find -lncurses
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_4217a.dir/build.make:87: cmTC_4217a] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4217a/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the ncursesw failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95f54/fast && /usr/bin/make -f CMakeFiles/cmTC_95f54.dir/build.make CMakeFiles/cmTC_95f54.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95f54.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs   -o CMakeFiles/cmTC_95f54.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95f54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f54.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm  -nodefaultlibs    CMakeFiles/cmTC_95f54.dir/CheckFunctionExists.c.o  -o cmTC_95f54  -lncursesw -lc -lgcc_s 
+/usr/bin/ld: cannot find -lncursesw
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_95f54.dir/build.make:87: cmTC_95f54] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_95f54/fast] Error 2
+
+
+
+Determining if the function __cxa_throw exists in the c++ failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_efdf9/fast && /usr/bin/make -f CMakeFiles/cmTC_efdf9.dir/build.make CMakeFiles/cmTC_efdf9.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efdf9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__cxa_throw  -nodefaultlibs   -o CMakeFiles/cmTC_efdf9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_efdf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efdf9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__cxa_throw  -nodefaultlibs    CMakeFiles/cmTC_efdf9.dir/CheckFunctionExists.c.o  -o cmTC_efdf9  -lc++ -lc -lgcc_s 
+/usr/bin/ld: cannot find -lc++
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_efdf9.dir/build.make:87: cmTC_efdf9] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_efdf9/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_RT_HAS_FUSE_LD_LLD_FLAG failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c1dd/fast && /usr/bin/make -f CMakeFiles/cmTC_9c1dd.dir/build.make CMakeFiles/cmTC_9c1dd.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c1dd.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_RT_HAS_FUSE_LD_LLD_FLAG  -nodefaultlibs -fuse-ld=lld   -o CMakeFiles/cmTC_9c1dd.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9c1dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c1dd.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_RT_HAS_FUSE_LD_LLD_FLAG  -nodefaultlibs -fuse-ld=lld    CMakeFiles/cmTC_9c1dd.dir/src.cxx.o  -o cmTC_9c1dd  -lc -lgcc_s 
+collect2: fatal error: cannot find 'ld'
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_9c1dd.dir/build.make:87: cmTC_9c1dd] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9c1dd/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the __i386__ exist failed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d33c/fast && /usr/bin/make -f CMakeFiles/cmTC_0d33c.dir/build.make CMakeFiles/cmTC_0d33c.dir/build
+make[1]: Entering directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d33c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -nodefaultlibs  -m32   -o CMakeFiles/cmTC_0d33c.dir/CheckSymbolExists.c.o   -c /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0d33c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d33c.dir/link.txt --verbose=1
+/usr/bin/cc   -nodefaultlibs  -m32    CMakeFiles/cmTC_0d33c.dir/CheckSymbolExists.c.o  -o cmTC_0d33c  -lc -lgcc_s 
+/usr/bin/ld: cannot find Scrt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: cannot find libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a when searching for -lgcc
+/usr/bin/ld: cannot find -lgcc
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0d33c.dir/build.make:87: cmTC_0d33c] Error 1
+make[1]: Leaving directory '/home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0d33c/fast] Error 2
+
+
+File /home/llvm-project/compiler-rt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386__
+  return ((int*)(&__i386__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Testing compiler for supporting FLAGS-fxray-instrument:
+Command: /usr/bin/cc;;;;-Wall;-Wno-unused-parameter;-fxray-instrument;-o;/home/llvm-project/compiler-rt/build/CMakeFiles/test.o;;;-c;/home/llvm-project/compiler-rt/build/CMakeFiles/src.c
+
+cc: error: unrecognized command line option '-fxray-instrument'
+
+1

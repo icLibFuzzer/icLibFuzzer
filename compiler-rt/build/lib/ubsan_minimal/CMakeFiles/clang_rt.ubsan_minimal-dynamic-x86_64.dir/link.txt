@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -std=c++14 -Wno-unused-parameter  -m64 -nodefaultlibs -Wl,-z,text -Wl,-rpath-link,/usr/local/./lib  -shared -Wl,-soname,libclang_rt.ubsan_minimal-x86_64.so -o ../linux/libclang_rt.ubsan_minimal-x86_64.so CMakeFiles/RTUbsan_minimal.x86_64.dir/ubsan_minimal_handlers.cpp.o  -Wl,-rpath,"\$ORIGIN/../lib" -lgcc_s -lc 

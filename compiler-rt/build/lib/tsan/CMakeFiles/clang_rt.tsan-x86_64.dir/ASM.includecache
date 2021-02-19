@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/sanitizer_common/sanitizer_asm.h
+
+/home/llvm-project/compiler-rt/lib/tsan/rtl/tsan_rtl_amd64.S
+sanitizer_common/sanitizer_asm.h
+/home/llvm-project/compiler-rt/lib/tsan/rtl/sanitizer_common/sanitizer_asm.h
+

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../linux/libclang_rt.tsan-x86_64.a"
+  "../linux/libclang_rt.tsan-x86_64.pdb"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_clock.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_debugging.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_external.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_fd.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_flags.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_ignoreset.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_interceptors_posix.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_interface.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_interface_ann.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_interface_atomic.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_interface_java.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_malloc_mac.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_md5.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_mman.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_mutex.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_mutexset.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_platform_linux.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_platform_posix.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_preinit.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_report.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_rtl.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_rtl_amd64.S.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_rtl_mutex.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_rtl_proc.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_rtl_report.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_rtl_thread.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_stack_trace.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_stat.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_suppressions.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_symbolize.cpp.o"
+  "CMakeFiles/clang_rt.tsan-x86_64.dir/rtl/tsan_sync.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM CXX)
+  include(CMakeFiles/clang_rt.tsan-x86_64.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

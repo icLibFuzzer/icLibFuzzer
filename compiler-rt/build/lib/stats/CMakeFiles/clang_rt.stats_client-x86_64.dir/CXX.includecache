@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/sanitizer_common/sanitizer_internal_defs.h
+sanitizer_platform.h
+../lib/sanitizer_common/sanitizer_platform.h
+sanitizer_win_defs.h
+../lib/sanitizer_common/sanitizer_win_defs.h
+
+../lib/sanitizer_common/sanitizer_platform.h
+TargetConditionals.h
+-
+
+../lib/sanitizer_common/sanitizer_win_defs.h
+sanitizer_platform.h
+../lib/sanitizer_common/sanitizer_platform.h
+
+../lib/stats/stats.h
+sanitizer_common/sanitizer_internal_defs.h
+../lib/stats/sanitizer_common/sanitizer_internal_defs.h
+
+/home/llvm-project/compiler-rt/lib/stats/stats_client.cpp
+windows.h
+-
+dlfcn.h
+-
+stdint.h
+-
+stdio.h
+-
+sanitizer_common/sanitizer_internal_defs.h
+/home/llvm-project/compiler-rt/lib/stats/sanitizer_common/sanitizer_internal_defs.h
+stats/stats.h
+/home/llvm-project/compiler-rt/lib/stats/stats/stats.h
+

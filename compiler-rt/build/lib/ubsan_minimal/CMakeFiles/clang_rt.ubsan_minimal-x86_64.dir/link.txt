@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../linux/libclang_rt.ubsan_minimal-x86_64.a  CMakeFiles/RTUbsan_minimal.x86_64.dir/ubsan_minimal_handlers.cpp.o
+/usr/bin/ranlib ../linux/libclang_rt.ubsan_minimal-x86_64.a

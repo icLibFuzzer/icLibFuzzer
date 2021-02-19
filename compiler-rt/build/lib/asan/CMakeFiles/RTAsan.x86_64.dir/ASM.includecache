@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_common_interceptors_vfork_aarch64.inc.S
+sanitizer_common/sanitizer_asm.h
+../lib/sanitizer_common/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_common_interceptors_vfork_arm.inc.S
+sanitizer_common/sanitizer_asm.h
+../lib/sanitizer_common/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_common_interceptors_vfork_i386.inc.S
+sanitizer_common/sanitizer_asm.h
+../lib/sanitizer_common/sanitizer_common/sanitizer_asm.h
+
+../lib/sanitizer_common/sanitizer_common_interceptors_vfork_x86_64.inc.S
+sanitizer_common/sanitizer_asm.h
+../lib/sanitizer_common/sanitizer_common/sanitizer_asm.h
+
+/home/llvm-project/compiler-rt/lib/asan/asan_interceptors_vfork.S
+sanitizer_common/sanitizer_asm.h
+/home/llvm-project/compiler-rt/lib/asan/sanitizer_common/sanitizer_asm.h
+sanitizer_common/sanitizer_common_interceptors_vfork_aarch64.inc.S
+/home/llvm-project/compiler-rt/lib/asan/sanitizer_common/sanitizer_common_interceptors_vfork_aarch64.inc.S
+sanitizer_common/sanitizer_common_interceptors_vfork_arm.inc.S
+/home/llvm-project/compiler-rt/lib/asan/sanitizer_common/sanitizer_common_interceptors_vfork_arm.inc.S
+sanitizer_common/sanitizer_common_interceptors_vfork_x86_64.inc.S
+/home/llvm-project/compiler-rt/lib/asan/sanitizer_common/sanitizer_common_interceptors_vfork_x86_64.inc.S
+sanitizer_common/sanitizer_common_interceptors_vfork_i386.inc.S
+/home/llvm-project/compiler-rt/lib/asan/sanitizer_common/sanitizer_common_interceptors_vfork_i386.inc.S
+

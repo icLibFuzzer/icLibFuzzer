@@ -1,0 +1,1333 @@
+The system is: Linux - 4.15.0-109-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc35d/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fc35d.dir/build.make CMakeFiles/cmTC_fc35d.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc35d.dir/testCCompiler.c.o
+/usr/bin/cc   -m64  -fPIC   -o CMakeFiles/cmTC_fc35d.dir/testCCompiler.c.o   -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_fc35d.a
+/usr/bin/cmake -P CMakeFiles/cmTC_fc35d.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc35d.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_fc35d.a  CMakeFiles/cmTC_fc35d.dir/testCCompiler.c.o
+/usr/bin/ranlib libcmTC_fc35d.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7f34/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b7f34.dir/build.make CMakeFiles/cmTC_b7f34.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -m64  -fPIC   -v -o CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o -version -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cct7EswH.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o /tmp/cct7EswH.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C static library libcmTC_b7f34.a
+/usr/bin/cmake -P CMakeFiles/cmTC_b7f34.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7f34.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_b7f34.a  CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o
+/usr/bin/ranlib libcmTC_b7f34.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_b7f34/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b7f34.dir/build.make CMakeFiles/cmTC_b7f34.dir/build]
+  ignore line: [make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -m64  -fPIC   -v -o CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o -version -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cct7EswH.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o /tmp/cct7EswH.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C static library libcmTC_b7f34.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_b7f34.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7f34.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/ar qc libcmTC_b7f34.a  CMakeFiles/cmTC_b7f34.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/ranlib libcmTC_b7f34.a]
+  ignore line: [make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: [make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b785/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1b785.dir/build.make CMakeFiles/cmTC_1b785.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -m64  -fPIC   -v -o CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o -version -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccD94bwD.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccD94bwD.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX static library libcmTC_1b785.a
+/usr/bin/cmake -P CMakeFiles/cmTC_1b785.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b785.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_1b785.a  CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/ranlib libcmTC_1b785.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1b785/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1b785.dir/build.make CMakeFiles/cmTC_1b785.dir/build]
+  ignore line: [make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -m64  -fPIC   -v -o CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o -version -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccD94bwD.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccD94bwD.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX static library libcmTC_1b785.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_1b785.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b785.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/ar qc libcmTC_1b785.a  CMakeFiles/cmTC_1b785.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/ranlib libcmTC_1b785.a]
+  ignore line: [make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: [make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the function fopen exists in the c passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_867e8/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_867e8.dir/build.make CMakeFiles/cmTC_867e8.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_867e8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=fopen -fPIC   -o CMakeFiles/cmTC_867e8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_867e8.a
+/usr/bin/cmake -P CMakeFiles/cmTC_867e8.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_867e8.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_867e8.a  CMakeFiles/cmTC_867e8.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_867e8.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function __gcc_personality_v0 exists in the gcc_s passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54f92/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_54f92.dir/build.make CMakeFiles/cmTC_54f92.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54f92.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=__gcc_personality_v0 -fPIC   -o CMakeFiles/cmTC_54f92.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_54f92.a
+/usr/bin/cmake -P CMakeFiles/cmTC_54f92.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54f92.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_54f92.a  CMakeFiles/cmTC_54f92.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_54f92.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function __aeabi_uldivmod exists in the gcc passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71be4/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_71be4.dir/build.make CMakeFiles/cmTC_71be4.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71be4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=__aeabi_uldivmod -fPIC   -o CMakeFiles/cmTC_71be4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_71be4.a
+/usr/bin/cmake -P CMakeFiles/cmTC_71be4.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71be4.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_71be4.a  CMakeFiles/cmTC_71be4.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_71be4.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test LIBCXXABI_HAS_NODEFAULTLIBS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f88df/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f88df.dir/build.make CMakeFiles/cmTC_f88df.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f88df.dir/src.c.o
+/usr/bin/cc   -m64 -DLIBCXXABI_HAS_NODEFAULTLIBS_FLAG -fPIC   -nodefaultlibs -o CMakeFiles/cmTC_f88df.dir/src.c.o   -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.c
+Linking C static library libcmTC_f88df.a
+/usr/bin/cmake -P CMakeFiles/cmTC_f88df.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f88df.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_f88df.a  CMakeFiles/cmTC_f88df.dir/src.c.o
+/usr/bin/ranlib libcmTC_f88df.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_HAS_NOSTDINCXX_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50b5a/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_50b5a.dir/build.make CMakeFiles/cmTC_50b5a.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50b5a.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_HAS_NOSTDINCXX_FLAG  -nodefaultlibs -fPIC   -nostdinc++ -o CMakeFiles/cmTC_50b5a.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_50b5a.a
+/usr/bin/cmake -P CMakeFiles/cmTC_50b5a.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b5a.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_50b5a.a  CMakeFiles/cmTC_50b5a.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_50b5a.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function dladdr exists in the dl passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_adfe5/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_adfe5.dir/build.make CMakeFiles/cmTC_adfe5.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adfe5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=dladdr  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_adfe5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_adfe5.a
+/usr/bin/cmake -P CMakeFiles/cmTC_adfe5.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adfe5.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_adfe5.a  CMakeFiles/cmTC_adfe5.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_adfe5.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_once exists in the pthread passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cda26/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cda26.dir/build.make CMakeFiles/cmTC_cda26.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cda26.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=pthread_once  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_cda26.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_cda26.a
+/usr/bin/cmake -P CMakeFiles/cmTC_cda26.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cda26.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_cda26.a  CMakeFiles/cmTC_cda26.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_cda26.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function __cxa_thread_atexit_impl exists in the c passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6559f/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6559f.dir/build.make CMakeFiles/cmTC_6559f.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6559f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=__cxa_thread_atexit_impl  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_6559f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_6559f.a
+/usr/bin/cmake -P CMakeFiles/cmTC_6559f.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6559f.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_6559f.a  CMakeFiles/cmTC_6559f.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_6559f.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function write exists in the System passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ae66/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3ae66.dir/build.make CMakeFiles/cmTC_3ae66.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ae66.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=write  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_3ae66.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_3ae66.a
+/usr/bin/cmake -P CMakeFiles/cmTC_3ae66.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae66.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_3ae66.a  CMakeFiles/cmTC_3ae66.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_3ae66.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WERROR_EQ_RETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_625d6/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_625d6.dir/build.make CMakeFiles/cmTC_625d6.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_625d6.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WERROR_EQ_RETURN_TYPE_FLAG  -nodefaultlibs -fPIC   -Werror=return-type -o CMakeFiles/cmTC_625d6.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_625d6.a
+/usr/bin/cmake -P CMakeFiles/cmTC_625d6.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_625d6.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_625d6.a  CMakeFiles/cmTC_625d6.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_625d6.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_W_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4fd01/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4fd01.dir/build.make CMakeFiles/cmTC_4fd01.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fd01.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_W_FLAG  -nodefaultlibs -fPIC   -W -o CMakeFiles/cmTC_4fd01.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_4fd01.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4fd01.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fd01.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_4fd01.a  CMakeFiles/cmTC_4fd01.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_4fd01.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WALL_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_938a8/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_938a8.dir/build.make CMakeFiles/cmTC_938a8.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_938a8.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WALL_FLAG  -nodefaultlibs -fPIC   -Wall -o CMakeFiles/cmTC_938a8.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_938a8.a
+/usr/bin/cmake -P CMakeFiles/cmTC_938a8.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_938a8.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_938a8.a  CMakeFiles/cmTC_938a8.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_938a8.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WCHAR_SUBSCRIPTS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7759/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d7759.dir/build.make CMakeFiles/cmTC_d7759.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7759.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WCHAR_SUBSCRIPTS_FLAG  -nodefaultlibs -fPIC   -Wchar-subscripts -o CMakeFiles/cmTC_d7759.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_d7759.a
+/usr/bin/cmake -P CMakeFiles/cmTC_d7759.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7759.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_d7759.a  CMakeFiles/cmTC_d7759.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_d7759.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WCONVERSION_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cdc2b/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cdc2b.dir/build.make CMakeFiles/cmTC_cdc2b.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdc2b.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WCONVERSION_FLAG  -nodefaultlibs -fPIC   -Wconversion -o CMakeFiles/cmTC_cdc2b.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_cdc2b.a
+/usr/bin/cmake -P CMakeFiles/cmTC_cdc2b.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdc2b.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_cdc2b.a  CMakeFiles/cmTC_cdc2b.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_cdc2b.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WMISSING_BRACES_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00a51/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_00a51.dir/build.make CMakeFiles/cmTC_00a51.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00a51.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WMISSING_BRACES_FLAG  -nodefaultlibs -fPIC   -Wmissing-braces -o CMakeFiles/cmTC_00a51.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_00a51.a
+/usr/bin/cmake -P CMakeFiles/cmTC_00a51.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00a51.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_00a51.a  CMakeFiles/cmTC_00a51.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_00a51.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WUNUSED_FUNCTION_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0e07/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d0e07.dir/build.make CMakeFiles/cmTC_d0e07.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0e07.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WUNUSED_FUNCTION_FLAG  -nodefaultlibs -fPIC   -Wunused-function -o CMakeFiles/cmTC_d0e07.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_d0e07.a
+/usr/bin/cmake -P CMakeFiles/cmTC_d0e07.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e07.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_d0e07.a  CMakeFiles/cmTC_d0e07.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_d0e07.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WSHADOW_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5416/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a5416.dir/build.make CMakeFiles/cmTC_a5416.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5416.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WSHADOW_FLAG  -nodefaultlibs -fPIC   -Wshadow -o CMakeFiles/cmTC_a5416.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_a5416.a
+/usr/bin/cmake -P CMakeFiles/cmTC_a5416.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5416.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_a5416.a  CMakeFiles/cmTC_a5416.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_a5416.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WSIGN_COMPARE_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6649/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c6649.dir/build.make CMakeFiles/cmTC_c6649.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6649.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WSIGN_COMPARE_FLAG  -nodefaultlibs -fPIC   -Wsign-compare -o CMakeFiles/cmTC_c6649.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_c6649.a
+/usr/bin/cmake -P CMakeFiles/cmTC_c6649.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6649.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_c6649.a  CMakeFiles/cmTC_c6649.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_c6649.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WSIGN_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5555/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c5555.dir/build.make CMakeFiles/cmTC_c5555.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5555.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WSIGN_CONVERSION_FLAG  -nodefaultlibs -fPIC   -Wsign-conversion -o CMakeFiles/cmTC_c5555.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_c5555.a
+/usr/bin/cmake -P CMakeFiles/cmTC_c5555.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5555.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_c5555.a  CMakeFiles/cmTC_c5555.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_c5555.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WSTRICT_ALIASING_EQ_2_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a499/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4a499.dir/build.make CMakeFiles/cmTC_4a499.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a499.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WSTRICT_ALIASING_EQ_2_FLAG  -nodefaultlibs -fPIC   -Wstrict-aliasing=2 -o CMakeFiles/cmTC_4a499.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_4a499.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4a499.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a499.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_4a499.a  CMakeFiles/cmTC_4a499.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_4a499.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WSTRICT_OVERFLOW_EQ_4_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f244/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8f244.dir/build.make CMakeFiles/cmTC_8f244.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f244.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WSTRICT_OVERFLOW_EQ_4_FLAG  -nodefaultlibs -fPIC   -Wstrict-overflow=4 -o CMakeFiles/cmTC_8f244.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_8f244.a
+/usr/bin/cmake -P CMakeFiles/cmTC_8f244.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f244.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_8f244.a  CMakeFiles/cmTC_8f244.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_8f244.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WUNUSED_PARAMETER_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e455b/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e455b.dir/build.make CMakeFiles/cmTC_e455b.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e455b.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WUNUSED_PARAMETER_FLAG  -nodefaultlibs -fPIC   -Wunused-parameter -o CMakeFiles/cmTC_e455b.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_e455b.a
+/usr/bin/cmake -P CMakeFiles/cmTC_e455b.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e455b.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_e455b.a  CMakeFiles/cmTC_e455b.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_e455b.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WUNUSED_VARIABLE_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47bd2/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_47bd2.dir/build.make CMakeFiles/cmTC_47bd2.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47bd2.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WUNUSED_VARIABLE_FLAG  -nodefaultlibs -fPIC   -Wunused-variable -o CMakeFiles/cmTC_47bd2.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_47bd2.a
+/usr/bin/cmake -P CMakeFiles/cmTC_47bd2.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47bd2.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_47bd2.a  CMakeFiles/cmTC_47bd2.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_47bd2.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WWRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8753c/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8753c.dir/build.make CMakeFiles/cmTC_8753c.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8753c.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WWRITE_STRINGS_FLAG  -nodefaultlibs -fPIC   -Wwrite-strings -o CMakeFiles/cmTC_8753c.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_8753c.a
+/usr/bin/cmake -P CMakeFiles/cmTC_8753c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8753c.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_8753c.a  CMakeFiles/cmTC_8753c.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_8753c.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WUNDEF_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f2f2/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6f2f2.dir/build.make CMakeFiles/cmTC_6f2f2.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f2f2.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WUNDEF_FLAG  -nodefaultlibs -fPIC   -Wundef -o CMakeFiles/cmTC_6f2f2.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_6f2f2.a
+/usr/bin/cmake -P CMakeFiles/cmTC_6f2f2.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2f2.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_6f2f2.a  CMakeFiles/cmTC_6f2f2.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_6f2f2.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_WNO_ERROR_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d184/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d184.dir/build.make CMakeFiles/cmTC_8d184.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d184.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_WNO_ERROR_FLAG  -nodefaultlibs -fPIC   -Wno-error -o CMakeFiles/cmTC_8d184.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_8d184.a
+/usr/bin/cmake -P CMakeFiles/cmTC_8d184.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d184.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_8d184.a  CMakeFiles/cmTC_8d184.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_8d184.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_PEDANTIC_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98fc8/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_98fc8.dir/build.make CMakeFiles/cmTC_98fc8.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98fc8.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_PEDANTIC_FLAG  -nodefaultlibs -fPIC   -pedantic -o CMakeFiles/cmTC_98fc8.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_98fc8.a
+/usr/bin/cmake -P CMakeFiles/cmTC_98fc8.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98fc8.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_98fc8.a  CMakeFiles/cmTC_98fc8.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_98fc8.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_FSTRICT_ALIASING_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3197f/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3197f.dir/build.make CMakeFiles/cmTC_3197f.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3197f.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_FSTRICT_ALIASING_FLAG  -nodefaultlibs -fPIC   -fstrict-aliasing -o CMakeFiles/cmTC_3197f.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_3197f.a
+/usr/bin/cmake -P CMakeFiles/cmTC_3197f.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3197f.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_3197f.a  CMakeFiles/cmTC_3197f.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_3197f.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3de07/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3de07.dir/build.make CMakeFiles/cmTC_3de07.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3de07.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXXABI_SUPPORTS_FNO_EXCEPTIONS_FLAG  -nodefaultlibs -fPIC   -fno-exceptions -o CMakeFiles/cmTC_3de07.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_3de07.a
+/usr/bin/cmake -P CMakeFiles/cmTC_3de07.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3de07.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_3de07.a  CMakeFiles/cmTC_3de07.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_3de07.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_NODEFAULTLIBS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4805e/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4805e.dir/build.make CMakeFiles/cmTC_4805e.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4805e.dir/src.cxx.o
+/usr/bin/c++    -m64  -DLIBCXXABI_SUPPORTS_NODEFAULTLIBS_FLAG  -nodefaultlibs -fPIC   -nodefaultlibs -o CMakeFiles/cmTC_4805e.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_4805e.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4805e.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4805e.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_4805e.a  CMakeFiles/cmTC_4805e.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_4805e.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXXABI_SUPPORTS_FVISIBILITY_EQ_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69156/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_69156.dir/build.make CMakeFiles/cmTC_69156.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_69156.dir/src.cxx.o
+/usr/bin/c++    -m64  -DLIBCXXABI_SUPPORTS_FVISIBILITY_EQ_HIDDEN_FLAG  -nodefaultlibs -fPIC   -fvisibility=hidden -o CMakeFiles/cmTC_69156.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_69156.a
+/usr/bin/cmake -P CMakeFiles/cmTC_69156.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69156.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_69156.a  CMakeFiles/cmTC_69156.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_69156.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function fopen exists in the c passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0bee0/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0bee0.dir/build.make CMakeFiles/cmTC_0bee0.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bee0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=fopen -fPIC   -o CMakeFiles/cmTC_0bee0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_0bee0.a
+/usr/bin/cmake -P CMakeFiles/cmTC_0bee0.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bee0.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_0bee0.a  CMakeFiles/cmTC_0bee0.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_0bee0.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function __gcc_personality_v0 exists in the gcc_s passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36402/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_36402.dir/build.make CMakeFiles/cmTC_36402.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36402.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=__gcc_personality_v0 -fPIC   -o CMakeFiles/cmTC_36402.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_36402.a
+/usr/bin/cmake -P CMakeFiles/cmTC_36402.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36402.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_36402.a  CMakeFiles/cmTC_36402.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_36402.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test LIBCXX_SUPPORTS_NODEFAULTLIBS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ec37/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5ec37.dir/build.make CMakeFiles/cmTC_5ec37.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ec37.dir/src.c.o
+/usr/bin/cc   -m64 -DLIBCXX_SUPPORTS_NODEFAULTLIBS_FLAG -fPIC   -nodefaultlibs -o CMakeFiles/cmTC_5ec37.dir/src.c.o   -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.c
+Linking C static library libcmTC_5ec37.a
+/usr/bin/cmake -P CMakeFiles/cmTC_5ec37.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ec37.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_5ec37.a  CMakeFiles/cmTC_5ec37.dir/src.c.o
+/usr/bin/ranlib libcmTC_5ec37.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3392/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b3392.dir/build.make CMakeFiles/cmTC_b3392.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3392.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=pthread_create  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_b3392.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_b3392.a
+/usr/bin/cmake -P CMakeFiles/cmTC_b3392.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3392.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_b3392.a  CMakeFiles/cmTC_b3392.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_b3392.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ccos exists in the m passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92a15/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_92a15.dir/build.make CMakeFiles/cmTC_92a15.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92a15.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=ccos  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_92a15.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'ccos'; expected '_Complex double(_Complex double)' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: 'ccos' is declared in header '<complex.h>'
+  +++ |+#include <complex.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C static library libcmTC_92a15.a
+/usr/bin/cmake -P CMakeFiles/cmTC_92a15.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92a15.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_92a15.a  CMakeFiles/cmTC_92a15.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_92a15.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_286a6/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_286a6.dir/build.make CMakeFiles/cmTC_286a6.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_286a6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=clock_gettime  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_286a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C static library libcmTC_286a6.a
+/usr/bin/cmake -P CMakeFiles/cmTC_286a6.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_286a6.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_286a6.a  CMakeFiles/cmTC_286a6.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_286a6.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function __atomic_fetch_add_8 exists in the atomic passed with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f118/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1f118.dir/build.make CMakeFiles/cmTC_1f118.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f118.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -m64 -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_8  -nodefaultlibs -fPIC   -o CMakeFiles/cmTC_1f118.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function '__atomic_fetch_add_8'; expected 'long unsigned int(volatile void *, long unsigned int,  int)' [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro 'CHECK_FUNCTION_EXISTS'
+Linking C static library libcmTC_1f118.a
+/usr/bin/cmake -P CMakeFiles/cmTC_1f118.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f118.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_1f118.a  CMakeFiles/cmTC_1f118.dir/CheckFunctionExists.c.o
+/usr/bin/ranlib libcmTC_1f118.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_NOSTDINCXX_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_426c4/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_426c4.dir/build.make CMakeFiles/cmTC_426c4.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_426c4.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_NOSTDINCXX_FLAG  -nodefaultlibs -fPIC   -nostdinc++ -o CMakeFiles/cmTC_426c4.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_426c4.a
+/usr/bin/cmake -P CMakeFiles/cmTC_426c4.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_426c4.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_426c4.a  CMakeFiles/cmTC_426c4.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_426c4.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_124a0/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_124a0.dir/build.make CMakeFiles/cmTC_124a0.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_124a0.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -nodefaultlibs -fPIC   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_124a0.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_124a0.a
+/usr/bin/cmake -P CMakeFiles/cmTC_124a0.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_124a0.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_124a0.a  CMakeFiles/cmTC_124a0.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_124a0.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WALL_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf975/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cf975.dir/build.make CMakeFiles/cmTC_cf975.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf975.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WALL_FLAG  -nodefaultlibs -fPIC   -Wall -o CMakeFiles/cmTC_cf975.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_cf975.a
+/usr/bin/cmake -P CMakeFiles/cmTC_cf975.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf975.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_cf975.a  CMakeFiles/cmTC_cf975.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_cf975.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WEXTRA_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08437/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_08437.dir/build.make CMakeFiles/cmTC_08437.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_08437.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WEXTRA_FLAG  -nodefaultlibs -fPIC   -Wextra -o CMakeFiles/cmTC_08437.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_08437.a
+/usr/bin/cmake -P CMakeFiles/cmTC_08437.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08437.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_08437.a  CMakeFiles/cmTC_08437.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_08437.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_W_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eb7b7/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eb7b7.dir/build.make CMakeFiles/cmTC_eb7b7.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb7b7.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_W_FLAG  -nodefaultlibs -fPIC   -W -o CMakeFiles/cmTC_eb7b7.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_eb7b7.a
+/usr/bin/cmake -P CMakeFiles/cmTC_eb7b7.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb7b7.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_eb7b7.a  CMakeFiles/cmTC_eb7b7.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_eb7b7.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WWRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1913f/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1913f.dir/build.make CMakeFiles/cmTC_1913f.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1913f.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WWRITE_STRINGS_FLAG  -nodefaultlibs -fPIC   -Wwrite-strings -o CMakeFiles/cmTC_1913f.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_1913f.a
+/usr/bin/cmake -P CMakeFiles/cmTC_1913f.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1913f.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_1913f.a  CMakeFiles/cmTC_1913f.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_1913f.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WNO_UNUSED_PARAMETER_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4be52/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4be52.dir/build.make CMakeFiles/cmTC_4be52.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4be52.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WNO_UNUSED_PARAMETER_FLAG  -nodefaultlibs -fPIC   -Wno-unused-parameter -o CMakeFiles/cmTC_4be52.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_4be52.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4be52.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4be52.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_4be52.a  CMakeFiles/cmTC_4be52.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_4be52.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WNO_LONG_LONG_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89def/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_89def.dir/build.make CMakeFiles/cmTC_89def.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89def.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WNO_LONG_LONG_FLAG  -nodefaultlibs -fPIC   -Wno-long-long -o CMakeFiles/cmTC_89def.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_89def.a
+/usr/bin/cmake -P CMakeFiles/cmTC_89def.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89def.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_89def.a  CMakeFiles/cmTC_89def.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_89def.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WERROR_EQ_RETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_133e4/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_133e4.dir/build.make CMakeFiles/cmTC_133e4.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_133e4.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WERROR_EQ_RETURN_TYPE_FLAG  -nodefaultlibs -fPIC   -Werror=return-type -o CMakeFiles/cmTC_133e4.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_133e4.a
+/usr/bin/cmake -P CMakeFiles/cmTC_133e4.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_133e4.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_133e4.a  CMakeFiles/cmTC_133e4.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_133e4.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WEXTRA_SEMI_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6f3d/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d6f3d.dir/build.make CMakeFiles/cmTC_d6f3d.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6f3d.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WEXTRA_SEMI_FLAG  -nodefaultlibs -fPIC   -Wextra-semi -o CMakeFiles/cmTC_d6f3d.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_d6f3d.a
+/usr/bin/cmake -P CMakeFiles/cmTC_d6f3d.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f3d.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_d6f3d.a  CMakeFiles/cmTC_d6f3d.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_d6f3d.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WNO_LITERAL_SUFFIX_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4dc7b/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4dc7b.dir/build.make CMakeFiles/cmTC_4dc7b.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4dc7b.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WNO_LITERAL_SUFFIX_FLAG  -nodefaultlibs -fPIC   -Wno-literal-suffix -o CMakeFiles/cmTC_4dc7b.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_4dc7b.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4dc7b.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dc7b.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_4dc7b.a  CMakeFiles/cmTC_4dc7b.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_4dc7b.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WNO_CXX14_COMPAT_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8fba4/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8fba4.dir/build.make CMakeFiles/cmTC_8fba4.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fba4.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WNO_CXX14_COMPAT_FLAG  -nodefaultlibs -fPIC   -Wno-c++14-compat -o CMakeFiles/cmTC_8fba4.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_8fba4.a
+/usr/bin/cmake -P CMakeFiles/cmTC_8fba4.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fba4.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_8fba4.a  CMakeFiles/cmTC_8fba4.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_8fba4.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WNO_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06b41/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_06b41.dir/build.make CMakeFiles/cmTC_06b41.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06b41.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WNO_NOEXCEPT_TYPE_FLAG  -nodefaultlibs -fPIC   -Wno-noexcept-type -o CMakeFiles/cmTC_06b41.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_06b41.a
+/usr/bin/cmake -P CMakeFiles/cmTC_06b41.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b41.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_06b41.a  CMakeFiles/cmTC_06b41.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_06b41.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_WNO_ERROR_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c646/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1c646.dir/build.make CMakeFiles/cmTC_1c646.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c646.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_WNO_ERROR_FLAG  -nodefaultlibs -fPIC   -Wno-error -o CMakeFiles/cmTC_1c646.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_1c646.a
+/usr/bin/cmake -P CMakeFiles/cmTC_1c646.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c646.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_1c646.a  CMakeFiles/cmTC_1c646.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_1c646.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86fa8/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_86fa8.dir/build.make CMakeFiles/cmTC_86fa8.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86fa8.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_FNO_EXCEPTIONS_FLAG  -nodefaultlibs -fPIC   -fno-exceptions -o CMakeFiles/cmTC_86fa8.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_86fa8.a
+/usr/bin/cmake -P CMakeFiles/cmTC_86fa8.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86fa8.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_86fa8.a  CMakeFiles/cmTC_86fa8.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_86fa8.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBCXX_SUPPORTS_STD_EQ_CXX17_FLAG succeeded with the following output:
+Change Dir: /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df200/fast && make[3]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_df200.dir/build.make CMakeFiles/cmTC_df200.dir/build
+make[4]: Entering directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df200.dir/src.cxx.o
+/usr/bin/c++    -m64 -DLIBCXX_SUPPORTS_STD_EQ_CXX17_FLAG  -nodefaultlibs -fPIC   -std=c++17 -o CMakeFiles/cmTC_df200.dir/src.cxx.o -c /home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_df200.a
+/usr/bin/cmake -P CMakeFiles/cmTC_df200.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df200.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_df200.a  CMakeFiles/cmTC_df200.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_df200.a
+make[4]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/llvm-project/compiler-rt/build/lib/fuzzer/libcxx_fuzzer_x86_64-bins/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

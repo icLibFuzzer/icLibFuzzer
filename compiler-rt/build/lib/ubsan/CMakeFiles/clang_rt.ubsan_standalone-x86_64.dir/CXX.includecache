@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/sanitizer_common/sanitizer_internal_defs.h
+sanitizer_platform.h
+../lib/sanitizer_common/sanitizer_platform.h
+sanitizer_win_defs.h
+../lib/sanitizer_common/sanitizer_win_defs.h
+
+../lib/sanitizer_common/sanitizer_platform.h
+TargetConditionals.h
+-
+
+../lib/sanitizer_common/sanitizer_win_defs.h
+sanitizer_platform.h
+../lib/sanitizer_common/sanitizer_platform.h
+
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_init.h
+
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_init_standalone_preinit.cpp
+ubsan_platform.h
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_platform.h
+sanitizer_common/sanitizer_internal_defs.h
+/home/llvm-project/compiler-rt/lib/ubsan/sanitizer_common/sanitizer_internal_defs.h
+ubsan_init.h
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_init.h
+ubsan_signals_standalone.h
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_signals_standalone.h
+
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_platform.h
+
+/home/llvm-project/compiler-rt/lib/ubsan/ubsan_signals_standalone.h
+
