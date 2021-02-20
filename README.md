@@ -10,16 +10,15 @@
 ## Support Version
 Only following branch support icLibFuzzer
 Please checkout to following branch (the version indicated LLVM version)
- - release/9.x
- - release/11.x
+ - 11.x
 
 
 ## Install
 ```bash=
 ## get source
 export INSTALL_LLVM=/path/to/install/llvm
-git clone https://github.com/b04902036/llvm-project.git ${INSTALL_LLVM}/llvm-project
-git checkout release/11.x
+git clone https://github.com/icLibFuzzer/icLibFuzzer ${INSTALL_LLVM}/llvm-project
+git checkout 11.x
 
 ## build and install
 cd ${INSTALL_LLVM}/llvm-project
@@ -28,7 +27,11 @@ cmake -DLLVM_ENABLE_PROJECTS=clang -G "Unix Makefiles" ../llvm/
 make && make install
 
 ## build forkserver tools
+export LLVM_HOME=${INSTALL_LLVM}/llvm-project
 cd compiler-rt/lib/fuzzer/small_forkserver/ && make all
+unset LLVM_HOME
+cd ../ && ./move.py -m small
+
 
 ## add our compiler wrapper into PATH
 echo export PATH=$PATH:`pwd`/bin >> ~/.bashrc  
